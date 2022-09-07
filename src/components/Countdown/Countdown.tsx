@@ -39,7 +39,6 @@ const Countdown = (props: PropsInterface) => {
 
   Object.keys(timeLeft).forEach((interval) => {
     if (!timeLeft[interval]) return;
-    console.log(interval);
 
     if (interval === "lat" && timeLeft[interval] === 1) {
       props.setYear(timeLeft[interval]);
