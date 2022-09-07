@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   font-family: "Oooh Baby", cursive;
+  transition: 0.7s all ease-out;
 
   font-size: 3rem;
   background: white;
@@ -13,5 +14,9 @@
   box-shadow: 15px 25px 24px -6px rgba(167, 167, 187, 1);
   span {
     text-shadow: 5px 5px 5px rgba(66, 68, 90, 1);
+  }
+
+  &:hover {
+    transform: scale(1.2);
   }
 }

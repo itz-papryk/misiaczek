@@ -7,7 +7,6 @@ interface PropsInterface {
 
 const Countdown = (props: PropsInterface) => {
   const calculateTimeLeft = () => {
-    let year = new Date().getFullYear();
     const difference = +new Date() - +new Date(`07/29/2022`);
 
     let timeLeft = {};

@@ -1,5 +1,3 @@
-@import url("../../global-styles/_variables.scss");
-
 .mainWrapper {
   display: flex;
   justify-content: center;
@@ -36,7 +34,7 @@
 .cprights {
   font-family: Poppins;
   position: absolute;
-  left: 0;
+  left: 0.1vw;
   bottom: 0;
 }
 
@@ -47,8 +45,9 @@
   &-1 {
     font-size: 5rem;
     left: 5vw;
-    top: 11vh;
+    top: 12vh;
     rotate: -30deg;
+    animation: icon1 6s infinite ease-in-out;
   }
 
   &-2 {
@@ -56,13 +55,15 @@
     right: 6vw;
     bottom: 10vh;
     rotate: 35deg;
+    animation: icon2 6s infinite ease-in-out;
   }
 
   &-3 {
     font-size: 4rem;
     right: 3vw;
-    top: 7vh;
+    top: 11vh;
     rotate: 15deg;
+    animation: icon3 6s infinite ease-in-out;
   }
 
   &-4 {
@@ -70,16 +71,74 @@
     left: 4vw;
     bottom: 15vh;
     rotate: 150deg;
+    animation: icon4 6s infinite ease-in-out;
   }
 
   &-5 {
     font-size: 6rem;
     left: 25vw;
+    animation: icon5n6 6s infinite linear;
   }
 
   &-6 {
     font-size: 6rem;
     right: 25vw;
-    rotate: -30deg;
+  }
+  animation: icon5n6 6s infinite linear;
+}
+
+@keyframes icon1 {
+  0% {
+    top: 12vh;
+  }
+  50% {
+    top: 8vh;
+  }
+  100% {
+    top: 12vh;
+  }
+}
+
+@keyframes icon2 {
+  0% {
+    bottom: 10vh;
+  }
+  50% {
+    bottom: 14vh;
+  }
+  100% {
+    bottom: 10vh;
+  }
+}
+
+@keyframes icon3 {
+  0% {
+    top: 11vh;
+  }
+  50% {
+    top: 7vh;
+  }
+  100% {
+    top: 11vh;
+  }
+}
+@keyframes icon4 {
+  0% {
+    bottom: 15vh;
+  }
+  50% {
+    bottom: 19vh;
+  }
+  100% {
+    bottom: 15vh;
+  }
+}
+
+@keyframes icon5n6 {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
   }
 }

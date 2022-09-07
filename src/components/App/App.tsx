@@ -31,7 +31,8 @@ const App = () => {
         )}
       </div>
       <div className='cprights'>
-        Developed & Designed by Patryk Ilkiw (Martynka's Boyfriend) &copy;
+        Developed & Designed by Patryk Ilkiw (Martynka's Boyfriend - The
+        happiest man at the whole planet!) &copy;
       </div>
       <div className='decorator decorator-1'>💗</div>
       <div className='decorator decorator-2'>💖</div>
