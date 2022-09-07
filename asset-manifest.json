@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/misiaczek/static/css/main.91f0c93f.css",
-    "main.js": "/misiaczek/static/js/main.961fed87.js",
+    "main.js": "/misiaczek/static/js/main.faa9ef9f.js",
     "index.html": "/misiaczek/index.html",
     "main.91f0c93f.css.map": "/misiaczek/static/css/main.91f0c93f.css.map",
-    "main.961fed87.js.map": "/misiaczek/static/js/main.961fed87.js.map"
+    "main.faa9ef9f.js.map": "/misiaczek/static/js/main.faa9ef9f.js.map"
   },
   "entrypoints": [
     "static/css/main.91f0c93f.css",
-    "static/js/main.961fed87.js"
+    "static/js/main.faa9ef9f.js"
   ]
 }
