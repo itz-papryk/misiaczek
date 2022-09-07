@@ -1,0 +1,85 @@
+@import url("../../global-styles/_variables.scss");
+
+.mainWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: #12835d;
+  gap: 5%;
+  position: relative;
+  user-select: none;
+}
+
+.header {
+  h1 {
+    font-family: "Oooh Baby", cursive;
+    color: white;
+    text-shadow: 8px 7px 5px rgba(66, 68, 90, 1);
+    font-size: 3rem;
+
+    span {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+.important {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #f44;
+  text-shadow: 8px 7px 5px rgba(166, 68, 90, 1);
+  text-align: center;
+}
+
+.cprights {
+  font-family: Poppins;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.decorator {
+  position: absolute;
+  pointer-events: none;
+
+  &-1 {
+    font-size: 5rem;
+    left: 5vw;
+    top: 11vh;
+    rotate: -30deg;
+  }
+
+  &-2 {
+    font-size: 4.5rem;
+    right: 6vw;
+    bottom: 10vh;
+    rotate: 35deg;
+  }
+
+  &-3 {
+    font-size: 4rem;
+    right: 3vw;
+    top: 7vh;
+    rotate: 15deg;
+  }
+
+  &-4 {
+    font-size: 3rem;
+    left: 4vw;
+    bottom: 15vh;
+    rotate: 150deg;
+  }
+
+  &-5 {
+    font-size: 6rem;
+    left: 25vw;
+  }
+
+  &-6 {
+    font-size: 6rem;
+    right: 25vw;
+    rotate: -30deg;
+  }
+}
